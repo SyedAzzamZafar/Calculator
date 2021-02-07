@@ -1,0 +1,95 @@
+#:kivy 2.0.0
+<Button>
+    font_size: 30
+    size_hint:(0.25,0.16)
+   
+<TextInput>
+    font_size: 70
+    size_hint:(1,.20)
+    
+<MyGridLayout>
+    FloatLayout:
+        size:root.width,root.height
+        TextInput:
+            text: "0"
+            halign: "right"
+            pos_hint: {"x":0,"y":0.80}
+
+        Button:
+            text:"AC"
+            pos_hint: {"x":0,"y":0.64}
+            background_color:(64/255,64/255,64/255,1)
+        Button:
+            text:"clear"
+            pos_hint: {"x":0.25,"y":0.64}
+            background_color:(64/255,64/255,64/255,1)
+        Button:
+            text:"%"
+            pos_hint: {"x":0.5,"y":0.64}
+            background_color:(64/255,64/255,64/255,1)
+        Button:
+            text:"/"
+            pos_hint: {"x":0.75,"y":0.64}
+            background_color:(64/255,64/255,64/255,1) 
+        Button:
+            text:"7"
+            pos_hint: {"x":0,"y":0.48}
+        Button:
+            text:"4"
+            pos_hint: {"x":0,"y":0.32}
+        Button:
+            text:"1"
+            pos_hint: {"x":0,"y":0.16}
+        Button:
+            text:"+"
+            pos_hint: {"x":0,"y":0.0}
+            background_color:(184/255,89/255,81/255,1)
+        Button:
+            text:"8"
+            pos_hint: {"x":0.25,"y":0.48}
+        Button:
+            text:"9"
+            pos_hint: {"x":0.5,"y":0.48}
+        Button:
+            text:"X"
+            pos_hint: {"x":0.75,"y":0.48}
+            background_color:(64/255,64/255,64/255,1)
+        Button:
+            text:"4"
+            pos_hint: {"x":0,"y":0.32}
+        Button:
+            text:"5"
+            pos_hint: {"x":0.25,"y":0.32}
+        Button:
+            text:"6"
+            pos_hint: {"x":0.5,"y":0.32}
+        Button:
+            text:"-"
+            pos_hint: {"x":0.75,"y":0.32}
+            background_color:(64/255,64/255,64/255,1)
+        Button:
+            text:"2"
+            pos_hint: {"x":0.25,"y":0.16}
+        Button:
+            text:"3"
+            pos_hint: {"x":0.5,"y":0.16}
+        Button:
+            text:"0"
+            pos_hint: {"x":0.25,"y":0}
+        Button:
+            text:"."
+            pos_hint: {"x":0.5,"y":0}
+        
+        
+        Button:
+            text:"="
+            pos_hint: {"x":0.75,"y":0}
+            size_hint: (0.25,0.32)
+            background_color:(156/255,184/255,81/255,1)
+
+                        
+                
+                
+                
+
+
